@@ -5,6 +5,7 @@ import java.util.Objects;
 
 import com.annaalmada.course.entities.Order;
 import com.annaalmada.course.entities.Product;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
